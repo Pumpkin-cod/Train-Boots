@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.grey{
+    background-color: rgba(160, 158, 158, 0.2);
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid rgb(130, 128, 128);
+}   
+
+.zero{
+    text-align: end;
+    font-size: 50px;
+}
+
+.orange {
+    background-color: orange;
+    border-left: 1px solid grey;
+}
+
+.grey-border{
+    border-right: 1px solid grey;
+}

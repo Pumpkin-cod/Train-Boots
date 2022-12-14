@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style1.css">
+    <title>A Simple Blog Post</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nemo officia recusandae aut velit molestias inventore soluta, 
+                    voluptate consectetur, incidunt, maxime quos blanditiis 
+                    aspernatur corporis dolorem quis libero? Ratione, vel in?
+                </p>
+                <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nemo officia recusandae aut velit molestias inventore soluta, 
+                    voluptate consectetur, incidunt, maxime quos blanditiis 
+                    aspernatur corporis dolorem quis libero? Ratione, vel in?
+                </p>
+                <p class="text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nemo officia recusandae aut velit molestias inventore soluta, 
+                    voluptate consectetur, incidunt, maxime quos blanditiis 
+                    aspernatur corporis dolorem quis libero? Ratione, vel in?
+                </p>
+                <p class="text-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nemo officia recusandae aut velit molestias inventore soluta, 
+                    voluptate consectetur, incidunt, maxime quos blanditiis 
+                    aspernatur corporis dolorem quis libero? Ratione, vel in?
+                </p>
+                <blockquote class="blockquote">
+                <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nemo officia recusandae aut velit molestias inventore soluta, 
+                    voluptate consectetur, incidunt, maxime quos blanditiis 
+                    aspernatur corporis dolorem quis libero? Ratione, vel in?
+                </p>
+            </blockquote>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-light" disabled="disabled">Disabled</button>
+                <a class="btn btn-primary" href="#" role="button">Submit</a>
+                <button class="btn btn-danger" type="submit">Button</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+                <button type="button" class="btn btn-outline-success">Success</button>
+                <input class="btn btn-info" type="reset" value="Reset">
+                <button type="button" class="btn btn-dark btn-sm">Small button</button>
+                <button type="button" class="btn btn-link">Link</button>
+            </div>
+        </div>
+   <hr class="border border-secondary mb-5">
+
+    <div class="container mt-md-5">
+        <div class="row justify-content-between">
+            <div class="cols-md-4 justify-content-between">
+                <img class="img-fluid" src="./images.jpeg" alt="" srcset="">
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./images.jpeg" alt="" srcset="">
+            </div>
+
+            <div class="cols-md-4">
+                <img class="img-fluid" src="./images.jpeg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Ann" required>
+                
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="Cassel" required>
+                  
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>  
+                  </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                  <label for="validationCustom03" class="form-label">City</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  
+                </div>
+                <div class="col-md-4 mt-5 pt-2">
+                  <label for="validationCustom04" class="form-label">Region</label>
+                  <select class="form-select" id="validationCustom04" style="height: 40px; width: 293px;" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Greater Accra Region</option>
+                    <option>Ashanti Region</option>
+                    <option>Oti Region</option>
+                    <option>Upper East Region</option>
+                    <option>Central Region</option>
+                    <option>Volta Region</option>
+                    <option>Western Northern Region</option>
+                    <option>Northern Region</option>
+                    <option>Eastern Region</option>
+                    <option>Western Region</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4 mt-4">
+                  <label for="validationCustom05" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  
+                </div>
+                <div class="col-12 mt-4">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 mt-4">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+        </div> 
+                <div class="row">
+                    <table class="table table-hover table-striped table-secondary mt-4 pt-3">
+                        <thead>
+                          <tr>
+                            <th scope="col">Sl No</th>
+                            <th scope="col">First Name</th>
+                            <th scope="col">Last Name</th>
+                            <th scope="col">Nationality</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Jessy</td>
+                            <td>Lah</td>
+                            <td>Ghanaian</td>
+                            <td>@jessyla</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Maverick</td>
+                            <td>Vanderpuje</td>
+                            <td>Ghanaian</td>
+                            <td>@vander</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Vanessa</td>
+                            <td>Cassell</td>
+                            <td>Nigerian</td>
+                            <td>@caselva</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Jessy</td>
+                            <td>Lah</td>
+                            <td>Ghanaian</td>
+                            <td>@jessyla</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>Maverick</td>
+                            <td>Vanderpuje</td>
+                            <td>Ghanaian</td>
+                            <td>@vander</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            <td>Vanessa</td>
+                            <td>Cassell</td>
+                            <td>Nigerian</td>
+                            <td>@caselva</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">7</th>
+                            <td>Jessy</td>
+                            <td>Lah</td>
+                            <td>Ghanaian</td>
+                            <td>@jessyla</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">8</th>
+                            <td>Maverick</td>
+                            <td>Vanderpuje</td>
+                            <td>Ghanaian</td>
+                            <td>@vander</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">9</th>
+                            <td>Vanessa</td>
+                            <td>Cassell</td>
+                            <td>Nigerian</td>
+                            <td>@caselva</td>
+                          </tr>
+                        </tbody>
+                      </table>
+        </div>
+    </div>
+    </div>
+             
+    <script src="./bootstrap-4.6.2-dist/js/jquery-3.6.1.min.js"></script>
+    <script src="./bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+
+.light {
+    background-color: #da493f !important;
+    color: white;
+}
+
+ul li a:hover{
+    color: #da493f;
+    transition: 0.3s;
+}
+
+.items{
+    padding-right: 100px;
+    font-weight: 400;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+
+.text-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.text{
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.text1{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.image{
+    min-width: 100vw;
+   height: 100vh;
+}
+
+.image-fluid{
+    width: 1000px;
+}
+
+.about-pizza{
+    font-family: "Roboto";
+    padding: 70px 25px 0px 25px;
+    font-size: 25px;
+}
+
+.card{
+    margin:70px 25px;
+}
+
+.card-text{
+    font-size: 15px;
+    font-family: "Roboto";
+
+}
+
+footer{
+    background-color: #da493f;
+    color: white;
+    padding: 20px;
+}
