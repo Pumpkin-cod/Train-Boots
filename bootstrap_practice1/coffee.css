@@ -1,68 +1,81 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
 
 .light {
-    background-color: #da493f !important;
-    color: white;
+	background-color: #da493f !important;
+	color: white;
 }
 
-ul li a:hover{
-    color: #da493f;
-    transition: 0.3s;
+ul li a:hover {
+	color: #da493f;
+	transition: 0.3s;
 }
 
-.items{
-    padding-right: 100px;
-    font-weight: 400;
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+.items {
+	padding-right: 60px;
+	font-weight: 300;
+	font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1rem;
 }
 
-
-.text-container{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-top: 60px;
+p {
+	font-size: 1.3rem;
 }
 
-.text{
-    font-family: "Roboto";
-    font-weight: bolder;
-    font-size: 40px;
+.text-container {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding-top: 60px;
 }
 
-.text1{
-    font-family: "Roboto";
-    font-weight: bold;
-    font-size: 35px;
+.text {
+	font-family: 'Roboto';
+	font-weight: bolder;
+	font-size: 40px;
 }
 
-.image{
-    min-width: 100vw;
-   height: 100vh;
+.text1 {
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 2rem;
 }
 
-.image-fluid{
-    width: 1000px;
+.image {
+	min-width: 100vw;
+	height: 80vh;
 }
 
-.about-pizza{
-    font-family: "Roboto";
-    padding: 70px 25px 0px 25px;
-    font-size: 25px;
+.image-fluid {
+	width: 100%;
+	height: 60vh;
 }
 
-.card{
-    margin:70px 25px;
+.about-pizza {
+	font-family: 'Roboto';
+	padding: 70px 25px 0px 25px;
+	font-size: 25px;
 }
 
-.card-text{
-    font-size: 15px;
-    font-family: "Roboto";
-
+.card {
+	width: 30%;
+	margin: 30px 25px;
 }
 
-footer{
-    background-color: #da493f;
-    color: white;
-    padding: 20px;
+.card-text {
+	font-size: 15px;
+	font-family: 'Roboto';
+}
+
+footer {
+	background-color: #da493f;
+	color: white;
+	padding: 20px;
 }
